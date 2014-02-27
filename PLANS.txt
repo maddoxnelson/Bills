@@ -1,0 +1,13 @@
+What Bills impact me?
+
+Steps:
+- User presented with various input fields
+-- Location 
+-- Ethnicity or race
+-- Basic query field
+-- Legislator
+-- House/Senate
+-- Passed/not passed
+- User presented with a dropdown menu for alternative or suggested fields
+- User can fill in all or some of the fields
+- When a user submits the field, they are returned a list of Bills that might impact them

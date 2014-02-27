@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Bills that impact me allows users to quickly find bills that might interest or impact them.">
+    <meta name="author" content="Matt Nelson, for Scripps Howard">
+
+    <title>Bills that impact me</title>
+
+    <!-- Bootstrap core CSS -->
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+
+  </head>
+
+  <body>
+
+    <div class="container">
+		<div class="app_name">
+			<h1>Bills that impact me</h1>
+		</div>
+      	<div class="starter-template">
+        	<p class="lead">What bills impact me?</p>
+      	</div>
+	  
+	  	<div class="form-group city_input">
+			<label>Basic query</label>
+		  	<input type="text_area" class="form_control" id="basic_query" placeholder="Enter a search term.">
+			<br/>
+			<label>Location</label>
+			<input type="text_area" class="form_control" id="location" placeholder="Enter a location.">
+			<br/>
+			<label>Ethnicity or Race</label>
+			<input type="text_area" class="form_control" id="basic_query" placeholder="Enter an ethnicity or race.">
+			<br/>
+			<label>Legislator</label>
+			<input type="text_area" class="form_control" id="legislator" placeholder="Enter a legislator.">
+			<br/>
+			<label>Chamber</label>
+			<input type="text_area" class="form_control" id="chamber" placeholder="Enter a chamber.">
+			<br/>
+			<label>Passed/Not Passed</label>
+			<input type="text_area" class="form_control" id="chamber" placeholder="Enter passed or not passed.">
+			<br/>
+			
+			
+			
+		  	<p class="error_message"></p>
+		  	<button type="button" class="btn btn-primary get_weather" onclick="getMyWeather()">Find bills that impact me</button>
+	  	</div>
+		
+		<div class="btn-group">
+		  <button type="button" class="btn btn-default">Left</button>
+		  <button type="button" class="btn btn-default">Middle</button>
+		  <button type="button" class="btn btn-default">Right</button>
+		</div>
+		
+		
+		
+		<div class="dropdown">
+		  <button class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+		  </button>
+		  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+		    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+		    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+		    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+		    <li role="presentation" class="divider"></li>
+		    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+		  </ul>
+		</div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/get_weather.js"></script>
+  </body>
+</html>
